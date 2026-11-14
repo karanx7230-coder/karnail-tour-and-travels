@@ -3,20 +3,6 @@ import { Btn } from "./UI.jsx";
 import { BUSINESS, PHONES, HERO_IMAGE, DEFAULT_WA_MESSAGE, waLink, telLink } from "../config.js";
 import EnquiryForm from "./EnquiryForm.jsx";
 
-export function TopBar() {
-  return (
-    <div className="topbar">
-      <div className="wrap">
-        <a href={telLink(PHONES[0].raw)}><Icon name="phone" size={15} />{PHONES[0].display}</a>
-        <a className="hide-m" href={telLink(PHONES[1].raw)}><Icon name="phone" size={15} />{PHONES[1].display}</a>
-        <a className="hide-m" href={`mailto:${BUSINESS.email}`}><Icon name="mail" size={15} />{BUSINESS.email}</a>
-        <span className="sep" />
-        <span className="topbar-promise"><Icon name="shield" size={15} />{BUSINESS.promise}</span>
-      </div>
-    </div>
-  );
-}
-
 const NAV_LINKS = [
   ["#home", "Home"],
   ["#services", "Services"],
