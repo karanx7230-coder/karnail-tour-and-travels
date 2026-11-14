@@ -1,6 +1,5 @@
 import { Icon } from "./Icons.jsx";
-import { Btn, SectionHead } from "./UI.jsx";
-import { WhatsAppIcon } from "./Icons.jsx";
+import { SectionHead } from "./UI.jsx";
 import { promises, processSteps, whyUs } from "../data/content.js";
 import { services } from "../data/services.js";
 import { waLink } from "../config.js";

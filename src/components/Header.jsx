@@ -1,4 +1,4 @@
-import { Icon, LogoMark } from "./Icons.jsx";
+import { Icon, LogoMark, WhatsAppIcon } from "./Icons.jsx";
 import { Btn } from "./UI.jsx";
 import { BUSINESS, PHONES, HERO_IMAGE, DEFAULT_WA_MESSAGE, waLink, telLink } from "../config.js";
 import EnquiryForm from "./EnquiryForm.jsx";
