@@ -1,0 +1,51 @@
+/** Services — descriptions from the developer handoff. Confirm final active list with the client. */
+export const services = [
+  {
+    id: "outstation",
+    icon: "route",
+    title: "Outstation & Intercity",
+    text: "Point-to-point and multi-day journeys across North India in a clean, comfortable vehicle with an experienced driver.",
+    cta: "Enquire now",
+    wa: "Hi, I'd like to book an outstation trip. Details: ",
+  },
+  {
+    id: "packages",
+    icon: "flag",
+    title: "Tour Packages",
+    text: "Destination trips to Himachal, Uttarakhand, Spiti, Leh–Ladakh, Rajasthan and Kashmir — routes planned with you before you travel.",
+    cta: "See destinations",
+    link: "#destinations",
+  },
+  {
+    id: "group",
+    icon: "users",
+    title: "Group Transportation",
+    text: "Tempo Travellers and Urbania for families, pilgrim groups, weddings and corporate outings — everyone travels together.",
+    cta: "View fleet",
+    link: "#fleet",
+  },
+  {
+    id: "hotels",
+    icon: "bed",
+    title: "Hotel Assistance",
+    text: "Accommodation enquiries and arrangements along your route, so your stay is sorted along with your travel.",
+    cta: "Ask about stays",
+    wa: "Hi, I'd like help with hotel arrangements on my trip. Plan: ",
+  },
+  {
+    id: "transfers",
+    icon: "plane",
+    title: "Local & Station Transfers",
+    text: "City, airport and railway-station transfers with on-time pickup and a driver who waits, not rushes.",
+    cta: "Book a transfer",
+    wa: "Hi, I'd like to book a local/airport/railway transfer. Details: ",
+  },
+  {
+    id: "multiday",
+    icon: "clock",
+    title: "Multi-day Travel",
+    text: "Same vehicle, same driver, for as long as your plan needs — ideal for relaxed hill and circuit itineraries.",
+    cta: "Plan my days",
+    wa: "Hi, I'd like to plan a multi-day trip. My plan: ",
+  },
+];
